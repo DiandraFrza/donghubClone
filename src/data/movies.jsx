@@ -20,7 +20,7 @@ export const heroSlides = [
     title: "Perfect World",
     description:
       "Born into a unique world where villages fight to gain power and control. A clan's genius, who is known as a natural-born cultivator...",
-    imageUrl: "/images/ShiHao.png,
+    imageUrl: "/images/ShiHao.png",
   },
 ];
 
