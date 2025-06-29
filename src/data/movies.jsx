@@ -1,0 +1,443 @@
+// src/data/movies.js
+
+export const heroSlides = [
+  {
+    id: 101,
+    title: "Regenade Immortal",
+    description:
+      "Renegade Immortal – Wang Lin adalah anak yang sangat cerdas dengan orang tua yang penuh kasih. Meskipun dia dan orang tuanya dijauhi oleh anggota keluarga mereka yang lain, orang tuanya selalu berharap besar bahwa suatu hari dia akan menjadi seseorang yang hebat. Suatu hari, Wang Lin tiba-tiba mendapat kesempatan untuk berjalan di jalan keabadian",
+    imageUrl: "../../public/images/WANGLIN.webp",
+  },
+  {
+    id: 102,
+    title: "Battle Through The Heavens",
+    description:
+      "In a land where no magic is present. A land where the strong make the rules and the weak have to obey. A land filled with alluring treasures...",
+    imageUrl: "/images/btth.jpeg",
+  },
+  {
+    id: 103,
+    title: "Perfect World",
+    description:
+      "Born into a unique world where villages fight to gain power and control. A clan's genius, who is known as a natural-born cultivator...",
+    imageUrl: "/images/blog3.jpeg",
+  },
+];
+
+export const sidebarData = {
+  ongoing: [
+    { id: 201, title: "Over the Divine Realms", episode: 5 },
+    { id: 202, title: "Renegade Immortal", episode: 95 },
+    { id: 203, title: "Battle Through The Heavens Se...", episode: 153 },
+    { id: 204, title: "Legend of Martial Immortal", episode: 121 },
+    { id: 205, title: "Lord of Mysteries", episode: 2 },
+  ],
+  popular: {
+    weekly: [
+      {
+        id: 301,
+        rank: 1,
+        title: "Renegade Immortal",
+        genres: ["Action", "Adventure", "Drama", "Fantasy"],
+        imageUrl: "../../public/images/renegade-immortal-hd.webp",
+      },
+      {
+        id: 302,
+        rank: 2,
+        title: "Battle Through The Heavens Season 5",
+        genres: ["Action", "Adventure", "Fantasy"],
+        imageUrl: "../../public/images/btth-2025.webp",
+      },
+      {
+        id: 303,
+        rank: 3,
+        title: "Pefect World",
+        genres: ["Action", "Adventure", "Fantasy"],
+        imageUrl: "../../public/images/perfect-world.webp",
+      },
+      {
+        id: 304,
+        rank: 4,
+        title: "Tales Of Heading Gods",
+        genres: ["Action", "Adventure", "Fantasy"],
+        imageUrl: "../../public/images/herding-god-2025.webp",
+      },
+      {
+        id: 305,
+        rank: 5,
+        title: "[Azure Legacy] The Demon Hunter",
+        genres: [""],
+        imageUrl: "../../public/images/demon-hunter-s2.webp",
+      },
+      {
+        id: 306,
+        rank: 6,
+        title: "Soul Land 2: Unrivalved Tang Sect",
+        genres: ["Action", "Adventure", "Fantasy", "Romance"],
+        imageUrl: "../../public/images/SL-2-2025.webp",
+      },
+      {
+        id: 307,
+        rank: 7,
+        title: "Jade Dynasti",
+        genres: [""],
+        imageUrl: "../../public/images/Jade-Dynasty-HD.webp",
+      },
+      {
+        id: 308,
+        rank: 8,
+        title: "Throne Of Seal",
+        genres: ["Action", "Adventure", "Fantasy"],
+        imageUrl: "../../public/images/throne-of-seal-new-2025.webp",
+      },
+      {
+        id: 309,
+        rank: 9,
+        title: "Swallowed Star",
+        genres: ["Action", "Adventure", "Fantasy"],
+        imageUrl: "../../public/images/swallowed-star-s4-scaled.webp",
+      },
+      {
+        id: 310,
+        rank: 10,
+        title: "Legend Martial Of Immortal",
+        genres: ["Action", "Adventure", "Fantasy"],
+        imageUrl: "../../public/images/legend-immortal-2025.webp",
+      },
+    ],
+
+    monthly: [
+      {
+        id: 301,
+        rank: 1,
+        title: "Renegade Immortal",
+        genres: ["Action", "Adventure", "Drama", "Fantasy"],
+        imageUrl: "../../public/images/renegade-immortal-hd.webp",
+      },
+      {
+        id: 302,
+        rank: 2,
+        title: "Battle Through The Heavens Season 5",
+        genres: ["Action", "Adventure", "Fantasy"],
+        imageUrl: "../../public/images/btth-2025.webp",
+      },
+      {
+        id: 303,
+        rank: 3,
+        title: "Pefect World",
+        genres: ["Action", "Adventure", "Fantasy"],
+        imageUrl: "../../public/images/perfect-world.webp",
+      },
+      {
+        id: 304,
+        rank: 4,
+        title: "Tales Of Heading Gods",
+        genres: ["Action", "Adventure", "Fantasy"],
+        imageUrl: "../../public/images/herding-god-2025.webp",
+      },
+      {
+        id: 305,
+        rank: 5,
+        title: "[Azure Legacy] The Demon Hunter",
+        genres: [""],
+        imageUrl: "../../public/images/demon-hunter-s2.webp",
+      },
+      {
+        id: 306,
+        rank: 6,
+        title: "Soul Land 2: Unrivalved Tang Sect",
+        genres: ["Action", "Adventure", "Fantasy", "Romance"],
+        imageUrl: "../../public/images/SL-2-2025.webp",
+      },
+      {
+        id: 307,
+        rank: 7,
+        title: "Jade Dynasti",
+        genres: [""],
+        imageUrl: "../../public/images/Jade-Dynasty-HD.webp",
+      },
+      {
+        id: 308,
+        rank: 8,
+        title: "Throne Of Seal",
+        genres: ["Action", "Adventure", "Fantasy"],
+        imageUrl: "../../public/images/throne-of-seal-new-2025.webp",
+      },
+      {
+        id: 309,
+        rank: 9,
+        title: "Swallowed Star",
+        genres: ["Action", "Adventure", "Fantasy"],
+        imageUrl: "../../public/images/swallowed-star-s4-scaled.webp",
+      },
+      {
+        id: 310,
+        rank: 10,
+        title: "Legend Martial Of Immortal",
+        genres: ["Action", "Adventure", "Fantasy"],
+        imageUrl: "../../public/images/legend-immortal-2025.webp",
+      },
+    ],
+  },
+  genres: [
+    "Action",
+    "Adventure",
+    "Drama",
+    "Fantasy",
+    "Romance",
+    "Sci-fi",
+    "War",
+    "",
+    "",
+  ],
+};
+
+export const popularToday = [
+  {
+    id: 1,
+    title: "Battle Through The Heavens S...",
+    type: "ONA",
+    episode: "Episode 153",
+    imageUrl: "../../public/images/btth-2025.webp",
+    isSubbed: true,
+  },
+  {
+    id: 2,
+    title: "Over the Divine Realms",
+    type: "ONA",
+    episode: "Episode 5",
+    imageUrl: "../../public/images/Over-the-Divine-Realms.webp",
+    isSubbed: true,
+  },
+  {
+    id: 3,
+    title: "Lord of Mysteries",
+    type: "ONA",
+    episode: "Episode 2",
+    imageUrl: "../../public/images/Lord-of-Mysteries.webp",
+    isSubbed: true,
+  },
+  {
+    id: 4,
+    title: "Renegade Immortal",
+    type: "ONA",
+    episode: "Episode 95",
+    imageUrl: "../../public/images/renegade-immortal-hd.webp",
+    isSubbed: true,
+  },
+];
+
+export const latestRelease = [
+  {
+    id: 1,
+    title: "Tales Of Heading Gods.",
+    type: "ONA",
+    episode: "Episode 37",
+    imageUrl: "../../public/images/herding-god-2025.webp",
+    isSubbed: true,
+  },
+  {
+    id: 2,
+    title: "Over the Divine Realms",
+    type: "ONA",
+    episode: "Episode 5",
+    imageUrl: "../../public/images/Over-the-Divine-Realms.webp",
+    isSubbed: true,
+  },
+  {
+    id: 3,
+    title: "Renegade Immortal",
+    type: "ONA",
+    episode: "Episode 95",
+    imageUrl: "../../public/images/renegade-immortal-hd.webp",
+    isSubbed: true,
+  },
+  {
+    id: 4,
+    title: "Battle ThBattle Through The Heavens S...",
+    type: "ONA",
+    episode: "Episode 153",
+    imageUrl: "../../public/images/btth-2025.webp",
+    isSubbed: true,
+  },
+  {
+    id: 5,
+    title: "Legend Of Immortal",
+    type: "ONA",
+    episode: "Episode 121",
+    imageUrl: "../../public/images/legend-immortal-2025.webp",
+    isSubbed: true,
+  },
+  {
+    id: 6,
+    title: "Lord Mysteries",
+    type: "ONA",
+    episode: "Episode 2",
+    imageUrl: "../../public/images/Lord-of-Mysteries.webp",
+    isSubbed: true,
+  },
+  {
+    id: 7,
+    title: "Perfect World",
+    type: "ONA",
+    episode: "Episode 121",
+    imageUrl: "../../public/images/perfect-world.webp",
+    isSubbed: true,
+  },
+  {
+    id: 8,
+    title: "EMBERS",
+    type: "ONA",
+    episode: "Episode 5",
+    imageUrl: "../../public/images/Embers-Subtitle-Indonesia.webp",
+    isSubbed: true,
+  },
+  {
+    id: 10,
+    title: "Jade Dynasti",
+    type: "ONA",
+    episode: "Episode 57",
+    imageUrl: "../../public/images/Jade-Dynasty-HD.webp",
+    isSubbed: true,
+  },
+  {
+    id: 11,
+    title: "Shrouding The Heavens",
+    type: "ONA",
+    episode: "Episode 115",
+    imageUrl: "../../public/images/Shrounding-the-Heavens.webp",
+    isSubbed: true,
+  },
+  {
+    id: 12,
+    title: "Wealth and Wonder",
+    type: "ONA",
+    episode: "Episode 4",
+    imageUrl: "../../public/images/Wealth-and-Wonder.webp",
+    isSubbed: true,
+  },
+  {
+    id: 13,
+    title: "Yinian Yong Heng",
+    type: "ONA",
+    episode: "Episode 55",
+    imageUrl: "../../public/images/yi-nian-yen-hong.webp",
+    isSubbed: true,
+  },
+  {
+    id: 14,
+    title: "Steller Transformation Season...",
+    type: "ONA",
+    episode: "Episode 17",
+    imageUrl: "../../public/images/stellar-s6-scaled.webp",
+    isSubbed: true,
+  },
+  {
+    id: 15,
+    title: "Ling Cage: Incarnation Season...",
+    type: "ONA",
+    episode: "Episode 6",
+    imageUrl: "../../public/images/Spirit-Cage-S2.webp",
+    isSubbed: true,
+  },
+  {
+    id: 16,
+    title: "World Of Honor Season 2",
+    type: "ONA",
+    episode: "Episode 5",
+    imageUrl: "../../public/images/Word-of-Honor-Season-2.webp",
+    isSubbed: true,
+  },
+  {
+    id: 17,
+    title: "Soul Land 2: The Univerald Ta...",
+    type: "ONA",
+    episode: "Episode 107",
+    imageUrl: "../../public/images/SL-2-2025.webp",
+    isSubbed: true,
+  },
+];
+
+export const recommendationData = [
+  {
+    id: 401,
+    title: "Perfect World",
+    status: "Ongoing",
+    episode: "Sub",
+    imageUrl: "/images/perfect-world.webp", // <-- Path dibenerin
+    tags: [{ text: "ONA", color: "bg-red-600" }],
+    genres: ["Action", "Adventure", "Fantasy"], // <-- GENRE DITAMBAHKAN
+  },
+  {
+    id: 402,
+    title: "Legend Of Immortal",
+    status: "Ongoing",
+    episode: "Sub",
+    imageUrl: "/images/legend-immortal-2025.webp",
+    tags: [{ text: "ONA", color: "bg-red-600" }],
+    genres: ["Action", "Adventure", "Fantasy"],
+  },
+  {
+    id: 403,
+    title: "Tales Of Herding Gods",
+    status: "Ongoing",
+    episode: "Sub",
+    imageUrl: "/images/herding-god-2025.webp",
+    tags: [{ text: "ONA", color: "bg-red-600" }],
+    genres: ["Action", "Adventure", "Fantasy", "Romance"],
+  },
+  {
+    id: 404,
+    title: "Jade Dynasty",
+    status: "Completed",
+    episode: "Sub",
+    imageUrl: "/images/Jade-Dynasty-HD.webp",
+    tags: [
+      { text: "COMPLETED", color: "bg-purple-600" },
+      { text: "ONA", color: "bg-red-600" },
+    ],
+    genres: ["Action", "Adventure", "Fantasy", "Romance"],
+  },
+  {
+    id: 405,
+    title: "Renegade Immortal Movie",
+    status: "Completed",
+    episode: "Sub",
+    imageUrl: "/images/Renegade-Immortal-Movie-War-of-the-Gods-1.webp",
+    tags: [
+      { text: "COMPLETED", color: "bg-purple-600" },
+      { text: "Movie", color: "bg-blue-600" },
+    ],
+    genres: ["Action", "Adventure", "War"],
+  },
+];
+
+export const latestBlog = [
+  {
+    id: 501,
+    title: "God Qin Mu",
+    imageUrl: "../../public/images/thos.jpeg",
+  },
+  {
+    id: 502,
+    title: "A Deep Dive into the World of 'Renegade Immortal'",
+    imageUrl: "/images/blog2.jpeg",
+  },
+  {
+    id: 503,
+    title: "Why 'Battle Through The Heavens' is a Must-Watch",
+    imageUrl: "/images/btth.jpeg",
+  },
+];
+
+export const allMovies = [
+  ...heroSlides.map((m) => ({
+    ...m,
+    type: "Movie",
+    status: "Featured",
+    episode: "Movie",
+  })),
+  ...popularToday,
+  ...latestRelease,
+  ...recommendationData,
+];
