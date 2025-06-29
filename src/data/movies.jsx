@@ -6,21 +6,21 @@ export const heroSlides = [
     title: "Regenade Immortal",
     description:
       "Renegade Immortal – Wang Lin adalah anak yang sangat cerdas dengan orang tua yang penuh kasih. Meskipun dia dan orang tuanya dijauhi oleh anggota keluarga mereka yang lain, orang tuanya selalu berharap besar bahwa suatu hari dia akan menjadi seseorang yang hebat. Suatu hari, Wang Lin tiba-tiba mendapat kesempatan untuk berjalan di jalan keabadian",
-    imageUrl: "/images/WANGLIN.webp",
+    imageUrl: "/images/Wanglin.png",
   },
   {
     id: 102,
     title: "Battle Through The Heavens",
     description:
       "In a land where no magic is present. A land where the strong make the rules and the weak have to obey. A land filled with alluring treasures...",
-    imageUrl: "/images/btth.jpeg",
+    imageUrl: "/images/XiaoYan.png",
   },
   {
     id: 103,
     title: "Perfect World",
     description:
       "Born into a unique world where villages fight to gain power and control. A clan's genius, who is known as a natural-born cultivator...",
-    imageUrl: "/images/blog3.jpeg",
+    imageUrl: "/images/ShiHao.png,
   },
 ];
 
